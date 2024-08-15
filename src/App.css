@@ -1,0 +1,101 @@
+/* Add the existing styles here */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Additional styles for the CSV Prediction App */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1b1b1b; /* Set your desired background color */
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff; /* Set your desired background color */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 42px;
+  color: #333; /* Set your desired text color */
+}
+
+input,
+button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #007bff; /* Set your desired button color */
+  color: #fff; /* Set your desired text color */
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333; /* Set your desired text color */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #333; /* Set your desired text color */
+}
+
+/* Add any other styles you want to customize */
